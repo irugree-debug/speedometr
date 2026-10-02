@@ -21,6 +21,9 @@ body {
 }
 
 .speedometer{
+    /* Гарантирует, что спидометр ВСЕГДА будет виден и display: none не сработает */
+    display: block !important; 
+    
     width: 16.93vw;
     height: 14.06vw;
     background-image: url("img/speedometer-bg.png");
